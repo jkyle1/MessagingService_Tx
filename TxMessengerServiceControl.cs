@@ -11,7 +11,6 @@ namespace SatMessageTx
         private static ConnectionFactory _factory;
         private static IConnection _connection;
         private static IModel _channelTxSub;
-        private static int _retries;
         private static IKernel _kernel;
         private static readonly ILogger Log = Serilog.Log.Logger;
 
